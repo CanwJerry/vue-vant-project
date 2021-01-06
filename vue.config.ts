@@ -1,3 +1,9 @@
+import path = require('path');
+
+function resolve (dir) {
+  return path.join(__dirname, dir)
+}
+
 module.exports = {
   // 基本路径
   baseUrl: '/',
